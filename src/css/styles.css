@@ -13,8 +13,16 @@ body {
 }
 
 #search-box {
+  background-color: rgb(247, 242, 242);
   font: inherit;
   padding: 8px;
-  max-width: 320px;
+  width: 320px;
+  height: 70px;
   margin-bottom: 16px;
+  border-radius: 15px;
+  border: 3px solid blue;
+}
+
+.title {
+  text-align: center;
 }
