@@ -21,7 +21,6 @@ function onInputChange({ target }) {
       .then(country => {
         if (country.length < 2) {
           createCountrieCard(country);
-          createCountrieCard(country);
           Notify.success('Here your result');
         } else if (country.length < 10 && country.length > 1) {
           createCountrieList(country);
