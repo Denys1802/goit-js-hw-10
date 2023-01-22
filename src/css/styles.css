@@ -12,6 +12,18 @@ body {
   line-height: 1.5;
 }
 
+ul,
+li {
+  list-style: none;
+  padding: 0;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
 #search-box {
   background-color: rgb(247, 242, 242);
   font: inherit;
@@ -23,6 +35,44 @@ body {
   border: 3px solid blue;
 }
 
-.title {
-  text-align: center;
+.country-card__header {
+  display: flex;
+  align-items: center;
+}
+
+.country-card__img:not(:last-child) {
+  margin-right: 15px;
+}
+
+.country-card__title {
+  font-size: 28px;
+}
+
+.country-card__text {
+  margin: 0;
+  margin-top: 15px;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.country-card__value {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.country-list {
+  list-style: none;
+  margin: 0;
+}
+
+.country-list__item {
+  display: flex;
+  align-items: center;
+}
+
+.country-list__item:not(:last-child) {
+  margin-bottom: 15px;
+}
+.country-list__img:not(:last-child) {
+  margin-right: 10px;
 }
